@@ -31,11 +31,23 @@ Common use cases include:
 
 socket_learning/
 │
-├── server.js
-├── package.json
+├── server/
+│   ├── index.js          # Server entry point
+│   ├── app.js            # Express app setup
+│   ├── socket.js         # Socket.IO logic
+│
 ├── public/
-│ └── index.html
+│   ├── index.html        # Frontend UI
+│   ├── script.js         # Client-side socket logic
+│   └── style.css
+│
+├── config/
+│   └── env.js            # Environment configs
+│
+├── package.json
+├── .gitignore
 └── README.md
+
 
 ---
 
